@@ -12,9 +12,9 @@ body {
 #main{
     position: absolute;
     left: 50%;
-    width: 600px;
+    width: 800px;
     margin-top: 50px;
-    margin-left: -316px;
+    margin-left: -416px;
     padding: 15px;
 
 #header {
