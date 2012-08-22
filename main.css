@@ -10,7 +10,8 @@ body {
 	margin-right: 3%;
 	margin-top: 2%;
 	width: 94%;
-	width: 695px;
+	width: 795px;
+	text-align: center;
 }
 
 #header {
@@ -51,6 +52,7 @@ body {
 	background-color: #000000;	
 	color: #00ff00;
 	padding-top: 30px;
+	text-align: left;
 }
 
 /* four sections within the center */
@@ -67,12 +69,14 @@ body {
 	margin-left: 3%;
 	width: 43%;
 	float: left; 
+	text-align: left;
 }
 
 #right-center {
 	margin-right: 3%;
 	width: 43%;
 	float: right;
+	text-align: left;
 }
 
 #content-bottom {
@@ -80,6 +84,7 @@ body {
 	font-size: 1px;
 	float: none;
 	clear: both;
+	text-align: left;
 }
 
 /*used instead of right and left-center on pages other than index, see also content-left and right*/
@@ -90,18 +95,21 @@ div.content-center {
 	height: 410px;
 	float: none;
 	clear: both;
+	text-align: left;
 }
 
 /* Joseph O. Hebert header font */
 .header-words {
 	font-family: sans-serif;
 	font-size: 39px;
+	text-align: left;
 }
 
 .home-section h2 {
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 24px;
+	text-align: left;
 	/*text-decoration: underline;*/
 }
 
@@ -111,6 +119,7 @@ div.content-center {
 	font-size: 10px;
 	color: #009900;
 	float: left;
+	text-align: left;
 }
 
 /* the nav icon gifs and their hover border */
