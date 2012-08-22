@@ -1,0 +1,30 @@
+---
+layout: default
+title: Portfolio
+---
+
+	<div id="home-center">
+
+		<div id="top-center">
+			<div class="home-section">
+				<h2>Portfolio</h2>			
+			</div>
+		</div>
+
+		<!-- two columns, left and right, for listing the site links -->
+		<div class="content-center">
+			<div class="content-middle">
+<ul>
+  {% for post in site.posts %}
+ 
+  <li>
+    <a href="{{ post.url }}">
+      <img src="{{ post.image }}" />
+      <h3>{{ post.title }}</h3>
+    </a>
+  </li>
+ 
+  {% endfor %}
+</ul>      </div>
+		</div>
+		

@@ -1,0 +1,200 @@
+html {
+	background-color: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	width: 94%;
+	min-width: 595px;
+}
+
+#header {
+	background-color: #000000;	
+	height: 100px;
+	color: #00ff00;
+	border: 3px solid #005500;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/*div that holds "Joseph O. Hebert" heading on home */
+#header-title {
+	height: 100px;
+	float: left;
+}
+
+#header-pic {
+	float: right;
+}
+
+/*nav bar div on content pages, then div for the icons */
+#nav-bar {
+	height: 37px;
+	border-right: 1px solid #005500;
+	background-color: #000000;	
+	padding-left: 2%;
+	padding-right: 0;
+}
+
+#nav-icons {
+	text-align: right;
+	float: right;
+}
+
+/* main center section */
+#home-center {
+	background-color: #000000;	
+	color: #00ff00;
+	padding-top: 30px;
+}
+
+/* four sections within the center */
+#top-center {
+	text-align: center;
+	padding-left: 26%;
+	padding-right: 26%;
+	width: 48%;
+	float: none;
+	clear: both;
+}
+
+#left-center {
+	margin-left: 3%;
+	width: 43%;
+	float: left; 
+}
+
+#right-center {
+	margin-right: 3%;
+	width: 43%;
+	float: right;
+}
+
+#content-bottom {
+	height: 15px;
+	font-size: 1px;
+	float: none;
+	clear: both;
+}
+
+/*used instead of right and left-center on pages other than index, see also content-left and right*/
+div.content-center {
+	margin-left: 3%;
+	margin-right: 5%;
+	width: 92%;
+	height: 410px;
+	float: none;
+	clear: both;
+}
+
+/* Joseph O. Hebert header font */
+.header-words {
+	font-family: sans-serif;
+	font-size: 39px;
+}
+
+.home-section h2 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	/*text-decoration: underline;*/
+}
+
+/* for the Joseph Hebert in the nav bar */
+.nav-words {
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #009900;
+	float: left;
+}
+
+/* the nav icon gifs and their hover border */
+.navgifs {
+	float: left;
+	border-left: 1px solid #005500;
+	border-top: 1px solid #005500;
+	border-bottom: 1px solid #005500;
+	border-right: 0;
+}
+
+.navgifs:hover {
+	border-top: 1px solid #66ff66;
+	border-bottom: 1px solid #66ff66;
+}
+
+/* text attributes for sections on index page */
+.home-section p {
+	font-family: courier;
+	font-size: 18px;
+}
+
+.home-section a:link {
+	color: #00ff00;	
+}
+
+.home-section a:visited {
+	color: #657265;
+}
+
+.home-section a:hover {
+	color: red;	
+}
+
+/*left and right sections for pages other than index */
+div.content-left {
+	width: 46%;
+	float: left;
+}
+
+div.content-right {
+	width: 54%;
+	float:right;
+}
+
+div.content-middle {
+	padding-right: 12%;
+	padding-left: 12%;
+	width: 76%;
+	clear: both;
+}
+
+/*text attributes for content-center div */
+.content-center {
+	font-family: courier;
+	font-size: 18px;
+}
+
+.content-center a:link {
+	color: #00ff00;	
+}
+
+.content-center a:visited {
+	color: #657265;
+}
+
+.content-center a:hover {
+	color: red;	
+}
+
+/*attributes for links to samples */
+p.doc-links {
+	font-size: 10px;
+	text-align: center;
+}
+
+.section-pic {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+p.copyright {
+	color: #777777;
+	text-align: center;
+	font-size: 12px;
+}
