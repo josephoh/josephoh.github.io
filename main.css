@@ -1,5 +1,5 @@
 html {
-	background-color: #777777;
+	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 }
@@ -7,18 +7,39 @@ html {
 body {
 	padding: 0;
 	margin: 0;
+	font-family: Courier, "Courier New", monospace;
 }
 
 div#main{
-    position: absolute;
-    left: 50%;
-    width: 800px;
-    margin-top: 50px;
-    margin-left: -416px;
-    padding: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    margin-top:10px;
 
-#navbar{
-    text-align: right;
+    }
+
+#nav-bar{
+    float:right;
+    clear:left;
+    margin-bottom:50px;
+    }
+a.navicon{
+    margin-left:15px;
+    }
     
+#content-center{
+    float:left;
+    clear:right;
+    }
+    
+#bottom-stuff{
+    clear:both;
+    padding-top:40px; 
+    }
+    
+p.copyright{
+    width:230px;
+    margin-left:auto;
+    margin-right:auto;
     
 
