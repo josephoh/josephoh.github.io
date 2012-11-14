@@ -23,8 +23,24 @@ div#main{
     clear:left;
     margin-bottom:50px;
     }
+
+#nav-bar h1{
+	font-size:1.3em;
+	float:right;
+	}
+	
+#nav-bar ul{
+	list-style-type:none;
+
+}
+
+#nav-bar ul li{
+	display:inline;
+	float:left;
+}
+
 a.navicon{
-    margin-left:15px;
+    margin-right:15px;
     }
     
 #content-center{
