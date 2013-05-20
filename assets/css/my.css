@@ -21,20 +21,36 @@ body {
 	font-size: 42pt;
 	}
 
-div#resume {
-	padding-bottom: 40px;
-	}
-
 #resume h2, h3, h4 {
 	font-weight:700;
 	}
 
 #resume h3 {
-	margin:15px 0 5px 0;
+	margin:30px 0 0 0;
+	border-bottom: 1px solid #ddd;
+	}
+	
+#resume h4 {
+	margin:20px 0 0 0;
+	}
+	
+#resume dl, ul {
+	margin-top: 0px;
 	}
 
-#resume hr {
-	margin:0;
+#resume dt {
+	font-weight: 400;
+	font-style: italic;
+	}
+
+#resume dd {
+	display: list-item;
+	list-style-type: disc;
+	margin-left:25px;
+	}
+	
+#resume table {
+	margin-top: 10px;
 	}
 	
 #resume td {
