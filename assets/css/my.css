@@ -20,6 +20,10 @@ div.page-header {
 	font-size: 42pt;
 	}
 
+div#resume {
+	padding-bottom: 40px;
+	}
+
 #resume h2, h3, h4 {
 	font-weight:700;
 	}
