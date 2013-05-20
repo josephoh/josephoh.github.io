@@ -1,6 +1,0 @@
----
-layout: portfolio_entry
-title: Starting anew
-author: Joseph O. H.
----
-Occasionally starting a project over can provide new perspective. The fresh environment can instill a little excitement into something that was *stale*.

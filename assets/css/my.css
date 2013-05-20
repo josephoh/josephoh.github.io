@@ -1,0 +1,88 @@
+body {
+	background-image: url(/assets/img/white_wall_hash.png);
+	}
+	
+.nav-pills > li > a.nav-rightmost {
+	padding-right: 0;
+	}
+
+div.page-header {
+	padding-top: 20px;
+	}
+
+#wrap h1, h2, h3, h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	}
+
+
+.page-header h1 {
+	/*text-align: center;*/
+	font-size: 42pt;
+	}
+
+#resume h2, h3, h4 {
+	font-weight:700;
+	}
+
+#resume h3 {
+	margin:15px 0 5px 0;
+	}
+
+#resume hr {
+	margin:0;
+	}
+	
+#resume td {
+	padding-right: 10px;
+	}
+	
+	      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        /*background-color: #f5f5f5;*/
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      .container {
+        width: auto;
+        max-width: 680px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
