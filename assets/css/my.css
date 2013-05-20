@@ -2,18 +2,19 @@ body {
 	background-image: url(/assets/img/white_wall_hash.png);
 	}
 	
-.nav-pills > li > a.nav-rightmost {
+/*.nav-pills > li > a.nav-rightmost {
 	padding-right: 0;
-	}
+	}*/
 
-div.page-header {
+#wrap div.page-header {
 	padding-top: 20px;
+	margin: 10px 0 15px 0;
+	border-bottom: 1px solid #ddd;
 	}
 
 #wrap h1, h2, h3, h4 {
 	font-family: 'Josefin Sans', sans-serif;
 	}
-
 
 .page-header h1 {
 	/*text-align: center;*/
