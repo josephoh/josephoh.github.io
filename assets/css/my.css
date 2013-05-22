@@ -1,5 +1,6 @@
 body {
 	background-image: url(/assets/img/white_wall_hash.png);
+	font-size: 90%;
 	}
 	
 /*.nav-pills > li > a.nav-rightmost {
@@ -8,30 +9,47 @@ body {
 
 #wrap div.page-header {
 	padding-top: 20px;
-	margin: 10px 0 15px 0;
+	margin: 0 0 15px 0;
 	border-bottom: 1px solid #ddd;
 	}
 
-#wrap h1, h2, h3, h4 {
+#wrap h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	}
-
-.page-header h1 {
-	/*text-align: center;*/
-	font-size: 42pt;
+	
+#wrap h2, h3, h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
 	}
 
-#resume h2, h3, h4 {
-	font-weight:700;
+#wrap h2 {
+	font-size: 2em;
+	}
+	
+#wrap h3 {
+	font-size: 1.6em;
+	}
+
+#wrap h4 {
+	font-size: 1.3em;
+	}
+	
+.page-header h1 {
+	/*text-align: center;*/
+	font-size: 3.8em;
+	}
+
+.fpintro h2 {
+	margin:30px 0 5px 0;
 	}
 
 #resume h3 {
-	margin:30px 0 0 0;
+	margin:24px 0 0 0;
 	border-bottom: 1px solid #ddd;
 	}
 	
 #resume h4 {
-	margin:20px 0 0 0;
+	margin:18px 0 0 0;
 	}
 	
 #resume dl, ul {
